@@ -2,9 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Links</title>
+    <style>
+        .primary {
+            background-color: #007bff;
+            padding: 1rem;
+            border-radius: 25px;
+            width: 30%;
+            max-width: 50%;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+        .primary:hover {
+            cursor: pointer;
+            color: antiquewhite;
+            font-style: italic;
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            color: #007bff;
+        }
+        .logo {
+            max-width: 100px;
+        }
+    </style>
 </head>
 <body>
-
+    <header>
+        <div>
+            <img class="logo" src="images/amita-logo.png" alt="logo FATARCO">
+        </div>
+        <h1>Asociación Misionera de Tiro con Arco</h1>
+    </header>
+<main>
+    <a href="https://amita.com.ar/comunicaciones/" target="_blank" class="primary">Comunicaciones</a>
+    <a href="https://amita.com.ar/" target="_blank" class="primary">Sitio Web</a>
+    <a href="https://www.facebook.com/tiroconarco.misiones" target="_blank" class="primary">Facebook</a>
+    <a href="https://www.instagram.com/tiroconarcomisiones/" target="_blank" class="primary">Instagram</a>
+    <a href="https://waargentina.com.ar/pdf/reglamentos/Normas_FATARCO_2023.pdf" target="_blank" class="primary">Normas FATARCO</a>
+</main>
 </body>
 </html>
